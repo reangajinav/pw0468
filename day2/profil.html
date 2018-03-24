@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+header {
+	height: 100px;
+	background-color: orange;}
+	.bg {
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: 1;
+     float: left;
+     left: 0;}
+     .content {
+     width: 70%;
+     height: auto;
+     margin: 0 auto;
+     position: relative;
+     z-index: 5;
+     background: slateblue;
+     padding: 30px;
+     text-align: left;
+}
+</style>
+	
+</head>
+<body>
+<img src="dark-wood.jpg" alt="gambar" class="bg"/>
+<div class="content">
+<header><nav><h2 style="color: white; font-size: 40; text-align: center;"><br>Registrasi MI Fans</h2></nav></header>
+
+
+<form style="text-shadow: 2px 2px 2px #383838; font-size: 16pt; font-family: cursive; color: lightgrey;">
+  Completed name:<br>
+  <input type="text" size="50" name="firstname" placeholder="Completed Name">
+  <br>
+  Email :<br>
+  <input type="text" size="50" name="email" placeholder="email">
+  <br>
+  Password : <a style="color: red; font-size: 8pt; ">Must be any character and number ex:a12</a><br>
+  <input type="password" size="50" name="password" placeholder="Password">
+  <br>
+  Re-Password : <br>
+  <input type="repassword" size="50" name="repassword" placeholder="Password">
+  <br>
+  Gender<br>
+  <input type="radio" size="50" name="gender" value="male" checked>
+  Male<br>
+  <input type="radio" size="50" name="gender" value="female">
+  Female<br>
+  <input type="radio" color="mediumseagreen" size="50" name="gender" value="other"> other
+  <br>
+  Address : <br>
+  <input type="text" size="50" name="address" placeholder="address">
+  <br>
+  Zip Code : <br>
+  <input type="text" size="50" name="ZipCode" placeholder="Zip Code">
+  <br>
+  Phone Number : <br>
+  <input type="text" size="50" name="MobilePhone" placeholder="Phone Number">
+  <br>
+  <input type ="submit" value="Register" style="background-color: tomato; height: 50; width: 150; "> 
+  <input type ="submit" value="Cancel" style="background-color: tomato; height: 50; width: 150; ">
+</form>
+
+</div>
+
+</body>
+</html>
