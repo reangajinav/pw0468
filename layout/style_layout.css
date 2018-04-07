@@ -1,0 +1,66 @@
+.header{
+	margin: 0px auto;
+	width: 900px;
+	height: 120px;
+	background-color: #990099;
+	border-radius: 15px;
+	padding-right: 10px;
+
+
+}
+.header h1{
+			font-size: 15px;
+			margin-top: 30px;
+			background: lightgrey;
+			width: 400px;
+			float: right;
+			opacity: 0.6;
+			filter: alpha(opacity=60);
+			font-family: verdana;
+			text-align: right;
+			border-radius: 15px;
+			padding: 10px 10px 10px;
+}
+.header h1 small{
+	font-size: 10px;
+	font-style: italic;
+	color: #fff;
+}
+
+.menu{
+	margin: 0 auto;
+	width: 900px;
+	padding-right: 10px;
+	background: lightgrey;
+	border-radius: 15px;
+	text-align: center;
+}
+.menu ul li{
+	margin: 90px;
+	display: inline;
+}
+.menu li a{
+	text-decoration: none;
+	margin: 0 10px;
+	color: blue;
+}
+.menu li a:hover{
+			color: #dd6600;
+}
+.content{
+	margin:0 auto;
+	width: 900px;
+	height: 250px;
+	background-color: grey;
+	border-radius: 15px;
+	padding: 2px;
+}
+.c1{
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	width: 290px;
+	height: 250px;
+	background-color: #fff;
+	border-radius: 15px;
+}
