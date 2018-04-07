@@ -1,41 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html><!-- tag pemubka -->
 <head>
-<style>
-table {
-    font-family: verdana, sans-serif;
-    border-collapse: collapse;
-    width: auto;
+<style><!-- Internal css -->
+table
+{
+    font-family: verdana; /* membuat font menjadi verdana */
+    width: auto; /* membuat lebar tabel otomatis mengikuti panjang kata */
+}
+td, th /* script css untuk tampilan kolom dan baris */
+{
+    border: 5px solid grey; /*membuat ketebalan border menjadi 5px dan berwarna abu abu pekat */
+    text-align: left; /* penempatan huruf dimulai dari kiri*/
+    padding: 8px; /* membuat jarak garis tabel dengan huruf menjadi 8px */
 }
 
-td, th {
-    border: 5px solid grey;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(odd) {
-    background-color: lightgrey;
+tr:nth-child(odd) { /* script css untuk menseleksi baris ganjil */
+    background-color: lightgrey; /* membuat baris ganjil menjadi berwarna abu abu terang */
 }
 </style>
 </head>
-<body><center>
+<body>
+<center> <!--membuat isi content menjadi di tengah -->
 
-<h2 style="text-align: center;"><strong>Table Smartphone</strong></h2>
-<h3 style="text-align: center;">Table ini menjelaskan daftar smartphone xiaomi</h3>
+<h2 style="text-align: center;"><strong>Table Smartphone</strong></h2><!--Judul Tabel -->
+<h3 style="text-align: center;">Table ini menjelaskan daftar smartphone xiaomi</h3><!--deskripsi tabel-->
 
 
 
-<table>
-  <tr style="background: tomato ;">
-    <th style="text-align: center;font-weight: bold;">Fitur</th>
-    <th style="text-align: center;font-weight: bold;">Redmi 5</th>
-    <th style="text-align: center;font-weight: bold;">Redmi 5 plus</th>
-  </tr>
+<table><!--deklarasi pembuatan tabel-->
+  <tr style="background: tomato ;"><!-- pembuka baris baru tabel dan merubah tabel menjadi berwarna orange-->
+    <th style="text-align: center;font-weight: bold;">Fitur</th><!--Kata Fitur akan berada posisi tengah dan dicetak tebal-->
+    <th style="text-align: center;font-weight: bold;">Redmi 5</th><!--Kata Redmi 5 akan berada posisi tengah dan dicetak tebal-->
+    <th style="text-align: center;font-weight: bold;">Redmi 5 plus</th><!--Kata Redmi 5 plus akan berada posisi tengah dan dicetak tebal-->
+  </tr><!--penutup baris tabel-->
   <tr>
-    <td><strong>Picture</strong></td>
-    <td style="padding-top: 40px;"><img src="5.jpg" width="400" height="400"></td>
-    <td><img src="5plus.jpg" width="560" height="450"></td>
+    <td><strong>Picture</strong></td><!--Mencetak tabel menjadi tebal-->
+    <td style="padding-top: 40px;"><img src="5.jpg" width="400" height="400"></td> <!--memberi jarak 40px dari garis atas dan memasukan gambar 5.jpg pada tabel dengan ukuran 400 x 400-->
+    <td><img src="5plus.jpg" width="560" height="450"></td><!--memasukan gambar 5.jpg pada tabel dengan ukuran 450 x 450-->
   </tr>
   <tr>
     <td>Processor</td>
@@ -43,15 +44,17 @@ tr:nth-child(odd) {
     <td>Snapdragon 625</td>
   </tr>
   <tr>
-    <td rowspan="2"><strong>RAM and Storage</strong></td>
+    <td rowspan="2"><strong>RAM and Storage</strong></td><!-- membuat 2 baris tabel menjadi 1 baris -->
     <td>2/3 GB</td></td>
     <td>3/4 GB</td>     
   </tr>
+  <tr>
     <td>16/32GB</td>
     <td>32/64GB</td>
   </tr>
+  <tr>
     <td><strong>Camera</strong></td>
-    <td colspan="2" style="padding-left: 300px">12-Megapixel and 5-Megapixel</td>
+    <td colspan="2" style="padding-left: 300px">12-Megapixel and 5-Megapixel</td><!-- membuat 2 kolom tabel menjadi 1 kolom dan memberi jarak 300px untuk isi tabel -->
   </tr>
   <tr>
   	<td>Front Flash</td>
@@ -59,13 +62,13 @@ tr:nth-child(odd) {
   	<td>LED</td>
   </tr>
   <tr>
-    <td rowspan="2"><strong>Resolution and Ratio</strong></td>
+    <td rowspan="2"><strong>Resolution and Ratio</strong></td><!-- membuat 2 baris tabel menjadi 1 baris -->
     <td>1440 x 720 </td>
     <td>2160 x 1080 </td>
 
   </tr>
   <tr>
-  	<td colspan="2" style="padding-left: 400px"><strong>18:9</strong></td>
+  	<td colspan="2" style="padding-left: 400px"><strong>18:9</strong></td><!-- membuat 2 kolom pada tabel menjadi 1 kolom dan memberi jarak 400px untuk isi tabel -->
   </tr>
   <tr>
     <td>Size</td>
@@ -74,11 +77,11 @@ tr:nth-child(odd) {
   </tr>
   <tr>
   	<td><strong> Operating System</strong></td>
-  	<td colspan="2" style="padding-left: 320px"><strong>ANDROID NOUGAT 7.1</strong></td>
+  	<td colspan="2" style="padding-left: 320px"><strong>ANDROID NOUGAT 7.1</strong></td><!--membuat 2 kolom tabel menjadi 1 kolom dan memberi jarak 320px untuk isi tabel-->
   </tr>
   <tr>
   	<td>Skin</td>
-  	<td colspan="2" style="padding-left: 390px"><strong>MIUI 9</strong></td>
+  	<td colspan="2" style="padding-left: 390px"><strong>MIUI 9</strong></td><!--membuat 2 kolom tabel menjadi 1 kolom dan memberi jarak 390px untuk isi tabel-->
   </tr>
 </table>
 </body>
