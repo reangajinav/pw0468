@@ -1,20 +1,18 @@
 .header{
-	margin: 0px auto;
-	width: 900px;
-	height: 120px;
+	
 	background-color: #990099;
 	border-radius: 15px;
 	padding-right: 10px;
 
 }
 .batas {
-	margin: 0px auto;
+
 }
 .header h1{
 			font-size: 15px;
 			margin-top: 30px;
 			background: lightgrey;
-			width: 400px;
+			width: 200px;
 			float: right;
 			opacity: 0.6;
 			filter: alpha(opacity=60);
@@ -30,8 +28,7 @@
 }
 
 .menu{
-	margin: 0 auto;
-	width: 900px;
+	
 	border-top: 5px solid grey;
 	padding-right: 10px;
 	background: lightgrey;
@@ -66,4 +63,13 @@
 	height: 250px;
 	background-color: #fff;
 	border-radius: 15px;
+}
+.footer {
+	
+	border-bottom: 5px solid grey;
+	padding-right: 10px;
+	background: lightgrey;
+	border-radius: 15px;
+	text-align: center;
+
 }
