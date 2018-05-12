@@ -47,14 +47,7 @@
 .menu li a:hover{
 			color: #dd6600;
 }
-.content{
-	margin:0 auto;
-	width: 900px;
-	height: 250px;
-	background-color: grey;
-	border-radius: 15px;
-	padding: 2px;
-}
+
 .c1{
 	float: left;
 	margin-right: 5px;
@@ -63,13 +56,4 @@
 	height: 250px;
 	background-color: #fff;
 	border-radius: 15px;
-}
-.footer {
-	
-	border-bottom: 5px solid grey;
-	padding-right: 10px;
-	background: lightgrey;
-	border-radius: 15px;
-	text-align: center;
-
 }
