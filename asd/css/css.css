@@ -1,0 +1,63 @@
+
+h1{color: white;}
+h2{text-align: center;}
+em,p{
+	font-family: arial;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;}
+li{float: left;}
+li a{
+	display: inline;
+	text-decoration: none;
+	color: black;
+	padding-right: 20px;}
+
+.kontain{
+	margin: 50px;}
+.logo{
+	height: 100px;
+	width: 100px;
+	float: left;}
+
+.satu , .dua , .tiga , .empat , .lima{
+	width: 12px;
+	height: 12px;}
+.welcome{
+	background-image: url(../images/welcome.jpg);
+	text-align: center;	
+	background-size: 100% cover;
+	height: 150px;}
+
+
+.projek{
+	width: 100%;
+
+	background-color: grey;
+	height: 350px;}
+.th1,.th2,.th3{
+	margin: 12px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	}
+.th1{background-image: url(../images/golden.png);}
+.th2{background-image: url(../images/treehouse.png);}
+.th3{background-image: url(../images/framework.png);}
+
+.bawahan{
+	text-align: center;
+	background-color: lightgray;
+	height: 169px;}
+#hasil{background-color: white;}
+.button{
+	background-color: #4CAF50;
+	border-radius: 5px;
+	color: white;}
+.footer{
+	background-color: white;
+	text-align: center;
+}

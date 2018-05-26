@@ -1,0 +1,86 @@
+
+h1{color: white;}
+h2{text-align: center;}
+em,p{
+	font-family: arial;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;}
+li{float: left;}
+li a{
+	display: inline;
+	text-decoration: none;
+	color: black;
+	padding-right: 20px;}
+
+.conten{
+	margin: 50px;}
+.logo{
+	height: 100px;
+	width: 100px;
+	float: left;}
+
+.email , .telepon , .insta , .fb , .twiter{
+	width: 12px;
+	height: 12px;}
+.welcome{
+	background-image: url(../images/welcome.jpg);
+	text-align: center;	
+	background-size: 100% cover;
+	height: 150px;}
+
+
+.project{
+	width: 100%;
+
+	background-color: grey;
+	height: 350px;}
+.box1,.box2,.box3{
+	margin: 12px;
+	text-align: center;
+	float: left;
+	background-color: white;
+	width: 250px;
+	height: 250px;
+	margin-left: 23px;
+	margin-right: 23px;
+	}
+.tulisan{
+	padding-top: 200px;
+}
+.img-box1{display: block;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	padding-top: 10px;}
+.img-box2{display: block;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	padding-top: 10px;}
+.img-box3{display: block;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	/*margin-left: auto;
+	margin-right: auto;*/
+	padding-top: 10px;}
+
+.bawah{
+	text-align: center;
+	background-color: lightgray;
+	height: 169px;}
+#hasil{background-color: white;}
+.button{
+	background-color: #4CAF50;
+	border-radius: 5px;
+	color: white;}
+.footer{
+	background-color: white;
+	text-align: center;
+}

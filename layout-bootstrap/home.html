@@ -15,12 +15,33 @@
         templateUrl : "main.htm"
     })
     .when("/About", {
-    	templateUrl : "About.htm"
+    	templateUrl : "About.htm",
+    	controller : 'AboutCtrl'
     })
-    .when("/Product", {
-    	templateUrl : "product.htm"
+    .when("/weather", {
+    	templateUrl : "weather.htm",
+    	controller:'weatherCtrl'
+    })
+    .when("/Contacts", {
+    	templateUrl : "Contacts.htm"
     })
 });
+
+app.controller('weatherCtrl',function($scope, $http){
+	var url ='http://api.openweathermap.org/data/2.5/weather?q=Sleman,id&appid=4de4dd041e499ca8a4f6692097befdae';
+
+	$http.get(url).then(function(response){
+		$scope.info = response.data;
+		var temp=response.data.main.temp;
+		$scope.cel=temp-273;
+	});
+	$scope.title="weather of Sleman";
+});
+app.controller('AboutCtrl',function($scope){
+
+	$scope.num=10*5;
+});
+
 </script>
 </head>
 <body>
@@ -36,7 +57,7 @@
 			<a href="#/!"><i class="fas fa-home"></i>
 			Home<a/> | 
 			<a href="#!About">About |</a> 
-			<a href="#!Product">Product |</a> 
+			<a href="#!weather">Weather |</a> 
 			<a href="#!Contacts">Contacts</a>
 		</div>	
 	</div>
